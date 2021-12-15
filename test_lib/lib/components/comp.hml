@@ -1,0 +1,14 @@
+<div class="container">
+    <div id="list-view" class="list-view">
+        <div class="list-element"><text>element 1</text></div>
+        <div class="list-element"><text>element 2</text></div>
+        <div class="list-element"><text>element 3</text></div>
+        <div class="list-element"><text>element 4</text></div>
+        <div class="list-element"><text>element 5</text></div>
+        <div class="list-element"><text>element 6</text></div>
+        <div class="list-element"><text>element 7</text></div>
+        <div class="list-element"><text>element 8</text></div>
+        <div class="list-element"><text>element 9</text></div>
+        <div class="list-element"><text>element 10</text></div>
+    </div>
+</div>

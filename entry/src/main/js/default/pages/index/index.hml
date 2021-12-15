@@ -1,0 +1,4 @@
+<element name="comp" src="../../../../../../node_modules/test_lib/lib/components/comp.hml"></element>
+<div class="container">
+    <comp></comp>
+</div>
