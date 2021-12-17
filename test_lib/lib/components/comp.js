@@ -4,7 +4,7 @@ export default {
         display: true,
     },
     swipeLeft: function (element) {
-        // this.display = false;
-        element.style.display = "none";
+        // element.style.display = "none";
+        console.log("delete clicked");
     },
 };

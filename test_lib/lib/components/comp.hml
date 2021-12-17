@@ -1,22 +1,25 @@
 <div class="container">
-    <div id="list-view" class="list-view">
-        <swiper class="list-element" index="{{index}}" loop="false" SwipeEvent="swipeLeft">
+    <div class="list-view">
+        <swiper class="list-element disabled" index="{{index}}" loop="false" SwipeEvent="swipeLeft">
             <div class="swiper-item primary-item">
-                <text>Delete</text>
+                <button onclick="swipeLeft(this)">
+                    Delete
+                </button>
                 <image class="icon"
                     src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-trash-bin-cleaning-kiranshastry-solid-kiranshastry.png" />
             </div>
             <div class="swiper-item warning-item">
                 <text>element 1</text>
+
             </div>
             <div class="swiper-item success-item">
                 <image class="icon" src="https://img.icons8.com/material-sharp/50/000000/gmail-login.png" />
-                <text>Archive</text>
+                <button>Archive</button>
             </div>
         </swiper>
         <swiper class="list-element" index="1" loop="false">
             <div class="swiper-item primary-item">
-                <text>Delete</text>
+                <button>Delete</button>
                 <image class="icon"
                     src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-trash-bin-cleaning-kiranshastry-solid-kiranshastry.png" />
             </div>
@@ -25,12 +28,12 @@
             </div>
             <div class="swiper-item success-item">
                 <image class="icon" src="https://img.icons8.com/material-sharp/50/000000/gmail-login.png" />
-                <text>Archive</text>
+                <button>Archive</button>
             </div>
         </swiper>
         <swiper class="list-element" index="1" loop="false">
             <div class="swiper-item primary-item">
-                <text>Delete</text>
+                <button>Delete</button>
                 <image class="icon"
                     src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-trash-bin-cleaning-kiranshastry-solid-kiranshastry.png" />
             </div>
@@ -39,12 +42,12 @@
             </div>
             <div class="swiper-item success-item">
                 <image class="icon" src="https://img.icons8.com/material-sharp/50/000000/gmail-login.png" />
-                <text>Archive</text>
+                <button>Archive</button>
             </div>
         </swiper>
         <swiper class="list-element" index="1" loop="false">
             <div class="swiper-item primary-item">
-                <text>Delete</text>
+                <button>Delete</button>
                 <image class="icon"
                     src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-trash-bin-cleaning-kiranshastry-solid-kiranshastry.png" />
             </div>
@@ -53,12 +56,12 @@
             </div>
             <div class="swiper-item success-item">
                 <image class="icon" src="https://img.icons8.com/material-sharp/50/000000/gmail-login.png" />
-                <text>Archive</text>
+                <button>Archive</button>
             </div>
         </swiper>
         <swiper class="list-element" index="1" loop="false">
             <div class="swiper-item primary-item">
-                <text>Delete</text>
+                <button>Delete</button>
                 <image class="icon"
                     src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-trash-bin-cleaning-kiranshastry-solid-kiranshastry.png" />
             </div>
@@ -67,12 +70,12 @@
             </div>
             <div class="swiper-item success-item">
                 <image class="icon" src="https://img.icons8.com/material-sharp/50/000000/gmail-login.png" />
-                <text>Archive</text>
+                <button>Archive</button>
             </div>
         </swiper>
         <swiper class="list-element" index="1" loop="false">
             <div class="swiper-item primary-item">
-                <text>Delete</text>
+                <button>Delete</button>
                 <image class="icon"
                     src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-trash-bin-cleaning-kiranshastry-solid-kiranshastry.png" />
             </div>
@@ -81,12 +84,12 @@
             </div>
             <div class="swiper-item success-item">
                 <image class="icon" src="https://img.icons8.com/material-sharp/50/000000/gmail-login.png" />
-                <text>Archive</text>
+                <button>Archive</button>
             </div>
         </swiper>
         <swiper class="list-element" index="1" loop="false">
             <div class="swiper-item primary-item">
-                <text>Delete</text>
+                <button>Delete</button>
                 <image class="icon"
                     src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-trash-bin-cleaning-kiranshastry-solid-kiranshastry.png" />
             </div>
@@ -95,12 +98,12 @@
             </div>
             <div class="swiper-item success-item">
                 <image class="icon" src="https://img.icons8.com/material-sharp/50/000000/gmail-login.png" />
-                <text>Archive</text>
+                <button>Archive</button>
             </div>
         </swiper>
         <swiper class="list-element" index="1" loop="false">
             <div class="swiper-item primary-item">
-                <text>Delete</text>
+                <button>Delete</button>
                 <image class="icon"
                     src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-trash-bin-cleaning-kiranshastry-solid-kiranshastry.png" />
             </div>
@@ -109,12 +112,12 @@
             </div>
             <div class="swiper-item success-item">
                 <image class="icon" src="https://img.icons8.com/material-sharp/50/000000/gmail-login.png" />
-                <text>Archive</text>
+                <button>Archive</button>
             </div>
         </swiper>
         <swiper class="list-element" index="1" loop="false">
             <div class="swiper-item primary-item">
-                <text>Delete</text>
+                <button>Delete</button>
                 <image class="icon"
                     src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-trash-bin-cleaning-kiranshastry-solid-kiranshastry.png" />
             </div>
@@ -123,12 +126,12 @@
             </div>
             <div class="swiper-item success-item">
                 <image class="icon" src="https://img.icons8.com/material-sharp/50/000000/gmail-login.png" />
-                <text>Archive</text>
+                <button>Archive</button>
             </div>
         </swiper>
         <swiper class="list-element" index="1" loop="false">
             <div class="swiper-item primary-item">
-                <text>Delete</text>
+                <button>Delete</button>
                 <image class="icon"
                     src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-trash-bin-cleaning-kiranshastry-solid-kiranshastry.png" />
             </div>
@@ -137,12 +140,12 @@
             </div>
             <div class="swiper-item success-item">
                 <image class="icon" src="https://img.icons8.com/material-sharp/50/000000/gmail-login.png" />
-                <text>Archive</text>
+                <button>Archive</button>
             </div>
         </swiper>
         <swiper class="list-element" index="1" loop="false">
             <div class="swiper-item primary-item">
-                <text>Delete</text>
+                <button>Delete</button>
                 <image class="icon"
                     src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-trash-bin-cleaning-kiranshastry-solid-kiranshastry.png" />
             </div>
@@ -151,12 +154,12 @@
             </div>
             <div class="swiper-item success-item">
                 <image class="icon" src="https://img.icons8.com/material-sharp/50/000000/gmail-login.png" />
-                <text>Archive</text>
+                <button>Archive</button>
             </div>
         </swiper>
         <swiper class="list-element" index="1" loop="false">
             <div class="swiper-item primary-item">
-                <text>Delete</text>
+                <button>Delete</button>
                 <image class="icon"
                     src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-trash-bin-cleaning-kiranshastry-solid-kiranshastry.png" />
             </div>
@@ -165,12 +168,12 @@
             </div>
             <div class="swiper-item success-item">
                 <image class="icon" src="https://img.icons8.com/material-sharp/50/000000/gmail-login.png" />
-                <text>Archive</text>
+                <button>Archive</button>
             </div>
         </swiper>
         <swiper class="list-element" index="1" loop="false">
             <div class="swiper-item primary-item">
-                <text>Delete</text>
+                <button>Delete</button>
                 <image class="icon"
                     src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-trash-bin-cleaning-kiranshastry-solid-kiranshastry.png" />
             </div>
@@ -179,7 +182,7 @@
             </div>
             <div class="swiper-item success-item">
                 <image class="icon" src="https://img.icons8.com/material-sharp/50/000000/gmail-login.png" />
-                <text>Archive</text>
+                <button>Archive</button>
             </div>
         </swiper>
     </div>
