@@ -13,10 +13,36 @@
 }
 
 .list-element {
-    padding: 15;
-    margin: 10 5;
-    background-color: bisque;
+    top: 0px;
+    left: 0px;
+    /* padding: 15; */
+    /*    background-color: bisque;*/
     width: 100%;
-    border-radius: 5;
     color: black;
+}
+
+.swiper-item {
+    margin: 10 5;
+    padding: 10px;
+    border-radius: 5;
+    align-items: center;
+    display: flex;
+}
+.primary-item {
+    background-color: #ff3434;
+    justify-content: flex-end;
+}
+.warning-item {
+    background-color: wheat;
+}
+.success-item {
+    background-color: #41ba41;
+    justify-content: flex-start;
+}
+
+.icon {
+    height: 35px;
+    width: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
